@@ -1,0 +1,33 @@
+body {
+    background: rgb(43, 137, 192);
+    font: normal 15pt Arial;
+}
+section{
+
+}
+section{
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.452);
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+select{
+    width: 150px;
+    padding: 10px;
+}
+button#limpar{
+    align-self: right;
+}
+header{
+    text-align: center;
+}
+ 

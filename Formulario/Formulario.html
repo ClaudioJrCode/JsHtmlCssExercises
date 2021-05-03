@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src = "js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src = "js/jquery.mask.min.js"></script>
+    <script>$(document).ready(function(){
+        $("#cpf").mask ("000.000.000-00")
+        
+    }
+        )    
+    </script>
+</head>
+<body>
+
+    
+     <div>
+        <h1>Cadastro de Funcionarios</h1>
+        <h3>Complete todas as informações</h3>
+        <br>
+     </div>
+ 
+     <form>
+        <fieldset>
+            <div>
+                <label><strong>Nome Completo:</strong></label>
+                <input type="text" name="nome" id ="nome">
+            </div>
+            <br>
+            <div>
+                <label> <strong>CPF:</strong></label>
+                <input  type="text" name="cpf" id="cpf" >
+            </div>
+            <br>
+            <div>
+                <label><strong>RG:</strong></label>
+                <input style ="text-transform: uppercase" type="text" name="rg" id="rg">
+            </div>
+            <br>
+            <div>
+                <label><strong>Sexo:</strong></label>
+                <select name="sexo" id="sexo">
+                <option selected disabled>definir</option>
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Não Binario</option>
+                </select>
+            </div>
+            
+        </fieldset>
+    </form>
+    
+</body>
+</html>

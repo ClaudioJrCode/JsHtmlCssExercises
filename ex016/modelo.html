@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Vamos Contar</title>
+</head>
+<body>
+    <header>
+        <h1>Vamos Contar</h1>
+    </header>
+    <section>
+        <div>
+            <label for="inicio">Inicio: </label>
+            <input type="text" name='inicio' id='inicio'>
+        </div>
+        <div>
+            <label for="fim">Fim: </label>
+            <input type="text" id="fim" name="fim">
+        </div>
+        <div>
+            <label for="passo">Passo: </label>
+            <input type="text" id="passo" name="passo">
+        </div>
+        <div>
+            <input type="button" value="Contar" id="contarbtn" onclick="Calcular()">
+        </div>
+
+        <div id="res">
+            <p>Impossível Contar</p>
+        </div>
+    </section>
+
+    <footer>
+        <p> Claudio Alves &trade;</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
